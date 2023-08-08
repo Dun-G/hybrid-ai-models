@@ -1,0 +1,49 @@
+CNN-LSTM
+Correct prediction:  839
+False prediction:  449
+Accuracy of the model on unseen data:  0.6514 %
+Accuracy of the model on unseen data: 65.14%
+Precision of the model on unseen data: 66.22%
+Recall of the model on unseen data: 97.56%
+F1 score of the model on unseen data: 0.79
+
+43/43 [==============================] - 57s 1s/step - loss: 1.0987 - accuracy: 0.0253  
+Validation Data Evaluation:
+Loss: 1.0987120866775513
+Accuracy: 0.02529182843863964
+
+54/54 [==============================] - 69s 1s/step - loss: 1.0985 - accuracy: 0.6514
+Test Data Evaluation:
+Loss: 1.0984816551208496
+Accuracy: 0.6513975262641907
+
+54/54 [==============================] - 70s 1s/step - loss: 1.0985 - accuracy: 0.6514  
+Unshuffled Test Data Evaluation:
+Loss: 1.098481297492981
+Accuracy: 0.6513975262641907
+
+CNN-GRU
+Correct prediction:  1217
+False prediction:  71
+Accuracy of the model on unseen data:  0.9449 %
+Accuracy of the model on unseen data: 94.49%
+Precision of the model on unseen data: 97.83%
+Recall of the model on unseen data: 96.51%
+F1 score of the model on unseen data: 0.97
+
+43/43 [==============================] - 194s 4s/step - loss: 0.3811 - accuracy: 1.0000
+Validation Data Evaluation:
+Loss: 0.3811001777648926
+Accuracy: 1.0
+
+54/54 [==============================] - 225s 4s/step - loss: 0.5506 - accuracy: 0.9449
+Test Data Evaluation:
+Loss: 0.5506301522254944
+Accuracy: 0.9448757767677307
+
+54/54 [==============================] - 232s 4s/step - loss: 0.5506 - accuracy: 0.9449
+Unshuffled Test Data Evaluation:
+Loss: 0.5506299734115601
+Accuracy: 0.9448757767677307
+
+
